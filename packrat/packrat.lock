@@ -46,6 +46,11 @@ Version: 3.4.2
 Hash: 5ead8c9d3ad6863bd4a8aca78ce3386c
 Requires: R6, processx
 
+Package: crayon
+Source: CRAN
+Version: 1.3.4
+Hash: ff2840dd9b0d563fc80377a5a45510cd
+
 Package: curl
 Source: CRAN
 Version: 4.3
@@ -109,6 +114,12 @@ Package: highr
 Source: CRAN
 Version: 0.8
 Hash: 16aa2cc98d7b68c9d148c263c8dcdbcd
+
+Package: hms
+Source: CRAN
+Version: 0.5.3
+Hash: a0709e1b17b4bc1c27f5235177543e07
+Requires: pkgconfig, rlang, vctrs
 
 Package: htmltools
 Source: CRAN
@@ -195,11 +206,22 @@ Source: CRAN
 Version: 2.0.3
 Hash: 5ff5f2361851a49534c96caa2a8071c7
 
+Package: prettyunits
+Source: CRAN
+Version: 1.1.1
+Hash: 20669cd8bb8b3207f6371edf8cf510af
+
 Package: processx
 Source: CRAN
 Version: 3.4.2
 Hash: e1671b1ca2f6c66f29ffb2828e98dc02
 Requires: R6, ps
+
+Package: progress
+Source: CRAN
+Version: 1.2.2
+Hash: 209280eb751acf5899f7c69366e14bd3
+Requires: R6, crayon, hms, prettyunits
 
 Package: promises
 Source: CRAN

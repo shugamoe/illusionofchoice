@@ -7,9 +7,12 @@ output:
 editor_options:
   chunk_output_type: console
 ---
-```{r}
+```{r, echo=F,message=F}
 source("R/packages.R")
 source("R/functions.R")
-r2d3(data=c(0.3, 0.6, 0.8, 0.95, 0.40, 0.20), script = "code/barchart.js")
+
+dataProto <- getDataProto()
+
+r2d3(data=dataProto, script = "code/barchart.js", dependencies="d3-jetpack", d3_version = "5")
 ```
 
